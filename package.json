@@ -1,13 +1,18 @@
 {
-  "name": "untitled17",
+  "name": "password-generator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "random-pass": "node main.js"
+    "default": "node main.js length=14 lowercase=true uppercase=true numbers=true symbols=true",
+    "default-not-number": "node main.js length=14 lowercase=true uppercase=true numbers=false symbols=true",
+    "default-no-symbols": "node main.js length=14 lowercase=true uppercase=true numbers=true symbols=false",
+    "default-no-uppercase": "node main.js length=14 lowercase=true uppercase=false numbers=true symbols=true",
+    "default-only-number": "node main.js length=16 lowercase=false uppercase=false numbers=true symbols=false",
+    "default-only-letters": "node main.js length=16 lowercase=true uppercase=true numbers=false symbols=false"
   },
   "keywords": [],
-  "author": "",
+  "author": "WaleriiChirkov-16021990/bukin64@bk.ru",
   "license": "ISC",
   "dependencies": {
   }

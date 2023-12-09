@@ -5,16 +5,16 @@
 function getRandomPassword(length, lowercase, uppercase, numbers, symbols) {
     let result = '';
     let chars = '';
-    if (lowercase) {
+    if (lowercase.toString() === 'true') {
         chars += 'abcdefghijklmnopqrstuvwxyz';
     }
-    if (uppercase) {
+    if (uppercase.toString() === 'true') {
         chars += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     }
-    if (numbers) {
+    if (numbers.toString() === 'true') {
         chars += '0123456789';
     }
-    if (symbols) {
+    if (symbols.toString() === 'true') {
         chars += '!@#$%^&*()-._~+|/';
     }
     const charactersLength = chars.length;

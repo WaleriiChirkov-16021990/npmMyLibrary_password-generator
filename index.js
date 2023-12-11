@@ -27,8 +27,8 @@ function getRandomPassword(length, lowercase, uppercase, numbers, symbols) {
     for (let i = 0; i < length; i++) {
         result += chars.charAt(Math.floor(Math.random() * charactersLength));
     }
-    return result;
+    return result.toString();
 
 }
 
-module.exports = {getRandomPassword}
+module.exports = { getRandomPassword, }

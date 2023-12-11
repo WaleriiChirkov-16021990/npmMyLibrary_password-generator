@@ -1,6 +1,6 @@
 {
-  "name": "password-generator",
-  "version": "1.0.0",
+  "name": "password-generator-fix-lendth",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,14 @@
     "default-only-letters": "node main.js length=16 lowercase=true uppercase=true numbers=false symbols=false"
   },
   "keywords": [],
-  "author": "WaleriiChirkov-16021990/bukin64@bk.ru",
+  "author": {
+    "name": "WaleriiChirkov-16021990",
+    "email": "bukin64@bk.ru"
+  },
   "license": "ISC",
   "dependencies": {
+  },
+  "repository": {
+    "url": "https://github.com/WaleriiChirkov-16021990/npmMyLibrary_password-generator.git"
   }
 }

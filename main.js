@@ -39,5 +39,6 @@ process.argv.forEach((val, index) => {
         }
         console.log(symbols)
     }
+
 })
 console.log(randomPassword.getRandomPassword(length, lowercase, uppercase, numbers, symbols));
